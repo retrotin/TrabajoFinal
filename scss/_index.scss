@@ -1,0 +1,25 @@
+
+div{
+    a img{
+    margin-left: 50px;
+    height: 95px;
+    width: 185px;
+    }
+}
+
+section{
+    h3{
+    color: $blanco;
+    margin: 20px;
+    text-align: center;
+    }
+    .video{
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+        iframe{
+        margin: 10px;
+        }
+}
+

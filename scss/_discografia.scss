@@ -1,0 +1,26 @@
+.row{
+    margin-top: 100px;
+    align-items: center;
+        .img-discos{
+        width: 500px;
+        border: 3px solid $blanco;
+        }
+        .titulo-disco{
+        text-align: left;
+        }  
+            .canciones{
+            list-style: none;
+            padding: 0%;
+            }
+                li{
+                padding: 5px;
+                }
+
+}        
+
+
+.titulo-disco-history{
+    text-align: center;
+}
+
+

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2? family= Red+Hat+Display:wght@500 & display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: $blanco
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    .navbar-collapse{
+    justify-content: flex-end;
+    }
+        .nav-link{
+            color: $blanco;
+            font-size: 1.2rem;
+        }
+
+    
+} 
+
+/*Footer*/
+
+.pie-de-pagina{
+    padding-top: 80px;
+    .aver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+        li{
+            list-style: none;
+         }
+            a img{
+            height: 100px;
+            width: 100px;
+            margin: 100px;
+            }
+                i{
+                padding: 80px;
+                font-size: 1.8rem;
+                color: $blanco;
+            }
+}

@@ -1,0 +1,27 @@
+/*TABLET*/
+@media only screen and (max-width: 768px){}
+
+
+
+/*mobile*/
+@media only screen and (max-width: 576px){
+
+    /*INICIO*/
+    .video{
+        flex-direction: column;
+    }
+    .iframe{
+        width: 100%;
+    }
+
+    /*DISCOGRAFIA*/
+
+    .discografia-flex{
+        flex-direction: column;
+    }
+    .discografia-flex2{
+        flex-direction: column;
+
+    }
+
+   }
