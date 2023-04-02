@@ -13,13 +13,24 @@ section{
     margin: 20px;
     text-align: center;
     }
-    .video{
+    .videos{
         display: flex;
         justify-content: center;
-        font-size: 1.5rem;
-    }
-        iframe{
-        margin: 10px;
         }
+
+    
+        .video{
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            }
+
+            iframe{
+                margin: 10px;
+                padding: 50px;
+                width: 700px;
+                height: 800px;
+            }
+    
 }
 

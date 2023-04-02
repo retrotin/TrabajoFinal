@@ -4,14 +4,25 @@
 
 
 /*mobile*/
-@media only screen and (max-width: 576px){
+@media only screen and (min-width: 577px) and (max-width: 768px) {
 
     /*INICIO*/
+  
     .video{
         flex-direction: column;
+        justify-content: center;
     }
-    .iframe{
-        width: 100%;
+    .video iframe{
+        width: 570px;
+        margin: 30px 0px;
+        }
+
+    div a img{
+        
+        margin-left: 50px;
+        height: 95px;
+        width: 185px;
+        
     }
 
     /*DISCOGRAFIA*/
