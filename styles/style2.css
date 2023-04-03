@@ -23,6 +23,59 @@ header .nav-link {
 }
 
 /*Footer*/
+/*footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}
+*/
 .pie-de-pagina {
   padding-top: 80px;
 }
@@ -34,15 +87,51 @@ header .nav-link {
 .pie-de-pagina li {
   list-style: none;
 }
-.pie-de-pagina a img {
+.pie-de-pagina a {
   height: 100px;
   width: 100px;
   margin: 100px;
 }
 .pie-de-pagina i {
-  padding: 80px;
+  padding: 10px;
   font-size: 1.8rem;
   color: #ffffff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.redes {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.redes li {
+  margin: 0 10px;
+  list-style: none;
+}
+.redes a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+}
+.redes i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color 0.4s ease;
+}
+
+.redes a:hover i {
+  color: rgba(187, 180, 180, 0.637);
 }
 
 div a img {
@@ -51,11 +140,23 @@ div a img {
   width: 185px;
 }
 
-section h3 {
-  color: #ffffff;
-  margin: 20px;
-  text-align: center;
+h1 {
+  font-size: 3rem;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
+h1 div {
+  padding: 10px;
+}
+h1 .h1-tittle {
+  font-size: 6rem;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 section .videos {
   display: flex;
   justify-content: center;

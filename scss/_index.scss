@@ -7,13 +7,25 @@ div{
     }
 }
 
-section{
-    h3{
-    color: $blanco;
-    margin: 20px;
+h1{
+    font-size: 3rem;
+    margin-top: 150px;
+    margin-bottom: 150px;
+        div{
+            padding: 10px;
+        }
+        .h1-tittle{
+            font-size: 6rem;
+        }
+}
+
+h4{
     text-align: center;
-    }
-    .videos{
+    margin-bottom: 50px;
+}
+
+section{
+      .videos{
         display: flex;
         justify-content: center;
         }
@@ -32,5 +44,8 @@ section{
                 height: 800px;
             }
     
+     
+   
+
 }
 
