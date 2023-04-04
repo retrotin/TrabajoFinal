@@ -11,21 +11,6 @@ body{
 }
 
 
-header{
-    position: sticky;
-    top: 0;
-    background-color: black;
-    .navbar-collapse{
-    justify-content: flex-end;
-    }
-        .nav-link{
-            color: $blanco;
-            font-size: 1.2rem;
-        }
-
-    
-} 
-
 /*Footer*/
 
 .footer-content{
@@ -64,4 +49,15 @@ header{
 
 .redes a:hover i{
     color: rgba(187, 180, 180, 0.637);
+}
+
+.prueba1{
+    background: red;
+}
+.prueba2{
+    background: yellow;
+}
+
+.prueba3{
+    background: rgb(93, 167, 228);
 }

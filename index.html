@@ -11,83 +11,87 @@
     <title>Tincho</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-dark navbar-expand-lg "data-bs-theme="dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html"><img src="./imagenes/mjlogo3.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/biografia.html">BIOGRAFIA</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/galeria.html">GALERIA</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/discografia.html">DISCOGRAFIA</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <main>
-        <!-- CAROUSSEL PRINCIPAL -->
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./imagenes/mjcarrusel.jpg" class="d-block w-100" alt="MJ1">
-              </div>
-              <div class="carousel-item">
-                <img src="./imagenes/mjcarrusel2.jpg" class="d-block w-100" alt="MJ2">
-              </div>
-              <div class="carousel-item">
-                <img src="./imagenes/mjcarrusel3.jpg" class="d-block w-100" alt="MJ3">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+  <header class="">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="color:white" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </div>
-          <h1>
-            <div>EL MEJOR ARTISTA DE TODOS LOS TIEMPOS</div>
-            <div>EL REY DEL POP</div> 
-            <div class="h1-tittle">MICHAEL JACKSON</div>
-          </h1>
-            <h4>¡SUS MEJROES DISCOS!</h4>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <main>
+      <section>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./imagenes/mjcarrusel3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./imagenes/mjcarrusel.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./imagenes/mjcarrusel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./imagenes/mjcarrusel3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </main>
 
-        <section>
-            <div class="videos container-fluid">
-                <div class="video">
-                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2ANVost0y2y52ema1E9xAZ?utm_source=generator&theme=0" width="500" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3Us57CjssWnHjTUIXBuIeH?utm_source=generator&theme=0" width="500" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-            </div>
-            <div class="videos container-fluid ">
-                <div class="video">
-                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0oX4SealMgNXrvRDhqqOKg?utm_source=generator&theme=0" width="500" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3OBhnTLrvkoEEETjFA3Qfk?utm_source=generator&theme=0" width="500" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-            </div>
+
+    <section>
+      <div class=" row tittles">
+        <h2 class="col-xsm-12 col-sm-12 col-md-12">EL MEJOR ARTISTA DE TODOS LOS TIEMPOS</h2>
+        <h3 class="col-xsm-12 col-sm-12 col-md-12">EL REY DEL POP</h3>
+        <h1 class="col-xsm-12 col-sm-12 col-md-12">MICHAEL JACKSON</h1>
+      </div>
+    </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+       <section class="container">
+          <div class="videos container-fluid ">
+            <div class="video">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0oX4SealMgNXrvRDhqqOKg?utm_source=generator&theme=0" width="500" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3OBhnTLrvkoEEETjFA3Qfk?utm_source=generator&theme=0" width="500" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+            
         </section>
 
   </main>
