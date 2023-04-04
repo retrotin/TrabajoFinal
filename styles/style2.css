@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2? family= Red+Hat+Display:wght@500 & display=swap");
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 * {
   margin: 0;
   padding: 0;
@@ -135,12 +136,194 @@ section iframe {
   right: 500px;
 }
 
-fieldset {
-  padding-left: 70px;
-  width: 40%;
-  color: #ffffff;
+html {
+  font-family: "Montserrat", Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
+body {
+  background: black;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: black;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+  border: solid 3px #f5f5f5;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+h1 {
+  color: #f5f5f5;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: solid 2px black;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #f5f5f5;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+  float: right;
+  width: 45%;
+}
+
+input[type=text], [type=email], select, textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #f5f5f5;
+  color: #f5f5f5;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+input[type=text]:focus, [type=email]:focus, textarea:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+}
+
+.message {
+  float: none;
+}
+
+.name {
+  float: left;
+  width: 45%;
+}
+
+select {
+  background: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png") no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+  line-height: 150%;
+  height: 150px;
+  resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #f5f5f5;
+}
+
+:-moz-placeholder {
+  color: #f5f5f5;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #f5f5f5;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #f5f5f5;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #f5f5f5;
+  color: #f5f5f5;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #f5f5f5;
+  color: black;
+}
+
+/* fieldset{
+    padding-left: 70px;
+    width: 40%;
+    color: $blanco;  
+   } */
 .row {
   margin-top: 100px;
   align-items: center;
@@ -168,23 +351,18 @@ h1 {
   text-align: center;
 }
 
-.fotogaleria .fotos {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 20px;
-}
-.fotogaleria img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.galeria .col-lg-3 {
+  padding: 25px;
+  margin: 0 !important;
 }
 
-.fotogaleria .fotos img:hover {
-  transform: scale(1.1);
-  transition: transform 0.5s ease;
-  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.7);
-  filter: sepia(1);
+.galeria img {
+  width: 100%;
+  height: 450px;
+}
+
+.galeria img:hover {
+  border: 5px solid #ffffff;
 }
 
 /*mobile*/
@@ -210,6 +388,39 @@ h1 {
   }
   .discografia-flex2 {
     flex-direction: column;
+  }
+}
+/* contacto*/
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  .underline {
+    width: 68px;
+  }
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  .underline {
+    width: 53px;
+  }
+  input[type=text], [type=email], select, textarea {
+    font-size: 0.875em;
   }
 }
 
