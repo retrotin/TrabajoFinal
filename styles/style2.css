@@ -64,7 +64,18 @@ div a img {
   height: 95px;
   width: 185px;
 }
+div .animation-logo {
+  animation: ease-in animation 2s;
+}
 
+@keyframes animation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .navbar-collapse {
   justify-content: end;
 }
@@ -113,27 +124,21 @@ section iframe {
   color: #ffffff;
   margin: 10px;
 }
-.biografia::first-letter {
-  font-size: 1.5rem;
-  color: #ffffff;
-}
-.biografia .img-biografia {
-  float: left;
-  padding: 20px;
-  right: 400px;
+
+.img-biografia1 {
   width: 400px;
+  height: 400px;
 }
-.biografia .img-biografia2 {
-  float: right;
-  padding: 20px;
-  width: 700px;
-  right: 700px;
+
+.texto-biografia-1 {
+  text-align: center;
+  align-items: center;
+  font-size: 1.3rem;
 }
-.biografia .img-biografia3 {
-  float: left;
-  padding: 20px;
-  width: 500px;
-  right: 500px;
+
+.img-biografia2 {
+  width: 380px;
+  height: 280px;
 }
 
 html {
@@ -334,6 +339,7 @@ textarea {
 }
 .row .titulo-disco {
   text-align: left;
+  margin-top: 50px;
 }
 .row .canciones {
   list-style: none;
@@ -343,8 +349,24 @@ textarea {
   padding: 5px;
 }
 
+.cd2_history {
+  margin-top: 230px;
+}
+
 .titulo-disco-history {
   text-align: center;
+}
+
+.color1 {
+  background: red;
+}
+
+.color2 {
+  background: blue;
+}
+
+.color3 {
+  background: aqua;
 }
 
 h1 {
@@ -359,6 +381,7 @@ h1 {
 .galeria img {
   width: 100%;
   height: 450px;
+  transition: 0.2s ease all;
 }
 
 .galeria img:hover {

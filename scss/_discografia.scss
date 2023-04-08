@@ -7,6 +7,8 @@
         }
         .titulo-disco{
         text-align: left;
+        margin-top: 50px;
+        
         }  
             .canciones{
             list-style: none;
@@ -18,9 +20,24 @@
 
 }        
 
+.cd2_history{
+    margin-top: 230px;
+}
+
+
 
 .titulo-disco-history{
     text-align: center;
+}
+
+.color1{
+    background: red
+    }
+.color2{
+    background: blue
+}
+.color3{
+    background: aqua;
 }
 
 

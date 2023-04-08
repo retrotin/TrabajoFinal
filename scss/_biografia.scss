@@ -3,33 +3,26 @@
 }
 
 .biografia{
-    color: $blanco;
-    margin: 10px;
-        &::first-letter{
-            font-size: 1.5rem;
-            color:$blanco;
-        }
-        .img-biografia{
-            float: left;
-            padding: 20px;
-            right: 400px;
-            width: 400px;
-        }
-        .img-biografia2{
-            float: right;
-            padding: 20px;
-            width: 700px;
-            right: 700px;
-        }
-        .img-biografia3{
-            float:left;
-            padding: 20px;
-            width: 500px;
-            right: 500px;
-         }
-        
+color: $blanco;
+margin: 10px;
+
+}
+
+.img-biografia1{
+    width: 400px;
+    height: 400px;
+    
+}
+
+.texto-biografia-1{
+    text-align: center;
+    align-items: center;
+    font-size: 1.3rem;
 }
 
 
-
-
+.img-biografia2{
+    width: 380px;
+    height: 280px;
+    
+}
