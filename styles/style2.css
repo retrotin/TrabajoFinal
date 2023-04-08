@@ -17,6 +17,7 @@ body {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  padding-top: 100px;
 }
 
 .redes {
@@ -76,6 +77,10 @@ div .animation-logo {
     transform: scale(1);
   }
 }
+.navbar {
+  color: white;
+}
+
 .navbar-collapse {
   justify-content: end;
 }
@@ -116,8 +121,13 @@ section iframe {
   height: 800px;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .titulo-biografia {
   text-align: center;
+  padding-top: 50px;
 }
 
 .biografia {
@@ -125,20 +135,16 @@ section iframe {
   margin: 10px;
 }
 
-.img-biografia1 {
-  width: 400px;
-  height: 400px;
+.row .img-b1 {
+  width: 350px;
+  height: 350px;
 }
-
-.texto-biografia-1 {
+.row .img_align {
   text-align: center;
-  align-items: center;
-  font-size: 1.3rem;
+  padding: 50px 0;
 }
-
-.img-biografia2 {
-  width: 380px;
-  height: 280px;
+.row .text-b {
+  font-size: 1.3rem;
 }
 
 html {
@@ -324,11 +330,6 @@ textarea {
   color: black;
 }
 
-/* fieldset{
-    padding-left: 70px;
-    width: 40%;
-    color: $blanco;  
-   } */
 .row {
   margin-top: 100px;
   align-items: center;
@@ -371,6 +372,7 @@ textarea {
 
 h1 {
   text-align: center;
+  padding-top: 50px;
 }
 
 .galeria .col-lg-3 {

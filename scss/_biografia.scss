@@ -1,28 +1,26 @@
 .titulo-biografia{
     text-align: center;
+    padding-top: 50px; 
 }
 
 .biografia{
 color: $blanco;
 margin: 10px;
-
-}
-
-.img-biografia1{
-    width: 400px;
-    height: 400px;
-    
-}
-
-.texto-biografia-1{
-    text-align: center;
-    align-items: center;
-    font-size: 1.3rem;
 }
 
 
-.img-biografia2{
-    width: 380px;
-    height: 280px;
+
+.row{
+    .img-b1{
+        width: 350px;
+        height: 350px;
+    }
+    .img_align{
+        text-align: center;
+        padding:50px 0 ;
+    }
+    .text-b{
+        font-size: 1.3rem;
+    }
     
 }

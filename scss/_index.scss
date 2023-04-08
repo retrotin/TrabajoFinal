@@ -21,7 +21,9 @@ div{
         transform: scale(1);
     }
 }
-
+.navbar{
+    color: white;
+}
 .navbar-collapse{
     justify-content: end;
 }
@@ -73,3 +75,6 @@ section{
 
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
