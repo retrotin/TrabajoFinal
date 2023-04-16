@@ -1,4 +1,53 @@
+/*mobile*/
+@media only screen and (min-width:200px) and (max-width: 768px) {
 
+  /*INICIO*/
+
+  .video{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .video iframe{
+      width: 100%;
+      margin: 30px 0px;
+      }
+
+  div a img{
+      
+      margin-left: 50px;
+      height: 95px;
+      width: 185px;
+      
+  }
+
+  
+
+  /*DISCOGRAFIA*/
+  .row{
+    margin-top: 100px;
+    align-items: center;
+        .img-discos{
+        width: 374px;
+        border: 3px solid $blanco;
+        }
+        .titulo-disco{
+        text-align: left;
+        margin-top: 50px;
+        
+        }  
+            .canciones{
+            list-style: none;
+            padding: 0%;
+            }
+                li{
+                padding: 5px;
+                }
+
+}  
+
+}
+ 
   /* contacto*/
 
   @media screen and (max-width: 768px) {
