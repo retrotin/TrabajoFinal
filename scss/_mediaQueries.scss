@@ -1,6 +1,6 @@
 
 /*mobile*/
-@media only screen and (min-width:201px) and (max-width: 768px) {
+@media only screen and (min-width:200px) and (max-width: 768px) {
 
     /*INICIO*/
   
@@ -21,6 +21,8 @@
         width: 185px;
         
     }
+
+    
 
     /*DISCOGRAFIA*/
     .row{
@@ -46,8 +48,14 @@
   }  
 
 
+  
 
  
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+
     }
 
 
